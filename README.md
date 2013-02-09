@@ -29,4 +29,4 @@ Use the Makefile to create an executable file and run it.
 
 
 ---
-Contributors : Boaz Stolk 
+Contributors : Boaz Stolk and Kees Tijsen
