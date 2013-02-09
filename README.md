@@ -26,3 +26,7 @@ HUMAN sow? :
 
 #Usage
 Use the Makefile to create an executable file and run it.
+
+
+---
+Contributors : Boaz Stolk 
