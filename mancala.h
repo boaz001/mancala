@@ -65,8 +65,6 @@ public:
 
 private:
 	bool turn; // my turn?
-	int depth; // number of turns that is looked ahead
-	int step; // number of steps within a turn that is tried
 };
 
 // class of CPU (derived from MancalaPlayer)

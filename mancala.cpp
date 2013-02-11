@@ -270,7 +270,7 @@ void MancalaPlayer::steal(MancalaBoard& board, Side side, int lastpit) {
 
 
 // constructor of Human (creates a MancalaPlayer with Side HUMAN)
-Human::Human(MancalaBoard& board) : MancalaPlayer(board, HUMAN), turn(false), depth(0), step(0) {}
+Human::Human(MancalaBoard& board) : MancalaPlayer(board, HUMAN), turn(false) {}
 
 // the chooseMove determines the best move, this move (or pit) is stored in bestMove
 int Human::chooseMove(int& bestMove, Side side, MancalaBoard board, Tactic tactic) {
