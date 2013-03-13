@@ -53,10 +53,10 @@ int main() {
 			do {
 				cout << "HUMAN sow: " << flush;
 				cin >> frompit;
-				
+
 				reply = humanplayer.sow(mancala, MancalaPlayer::HUMAN, frompit);
 			} while(reply == MancalaPlayer::TRYAGAIN);
-			
+
 			if (reply == MancalaPlayer::STORE) { // LAST SEED IN STORE, GO AGAIN
 				cout << "HUMAN gets another turn!" << endl;
 			} else {
@@ -66,7 +66,7 @@ int main() {
 
 		} else if (cpuplayer.getTurn() == true) {
 			int frompit;
-			
+
 			// here the you can adjust the tactic (GREEDY / LOOKAHEAD)
 			//cpuplayer.chooseMove(frompit, MancalaPlayer::COMPUTER, mancala, MancalaPlayer::GREEDY);
 			cpuplayer.chooseMove(frompit, MancalaPlayer::COMPUTER, mancala, MancalaPlayer::LOOKAHEAD);
@@ -86,7 +86,7 @@ int main() {
 	} while (mancala.gameOver() == 0);
 
 	cout << (mancala.gameOver() == 1 ? "The winner is: HUMAN" : mancala.gameOver() == 2 ? "The winner is: CPU" : "Everyone is a winner!: DRAW") << endl;
-	
+
 	cin.get();
 	cin.get();
 	return 0;
