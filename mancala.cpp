@@ -9,6 +9,7 @@
 #include <algorithm>
 #include <iterator>
 #include <vector>
+#include <climits>
 #include "mancala.h"
 
 using namespace std;
