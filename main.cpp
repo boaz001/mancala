@@ -10,14 +10,14 @@ int main() {
 	cout << "Mancala - By Kees and Boaz" << endl << endl;
 	int pits, stones;
 	do {
-		cout << "How many pits p? 1<p<8 (standaard aantal toets 0)" << endl;
+		cout << "How many pits p? 1<p<8 (for default type 0)" << endl;
 		cin >> pits;
 		if (pits == 0) {
 			pits = DEFAULT_PITS;
 		}
 	} while (!((pits > 1) && (pits < 8)));
 	do {
-		cout << "How many stones s? 1<s<7 (standaard aantal toets 0)" << endl;
+		cout << "How many stones s? 1<s<7 (for default type 0)" << endl;
 		cin >> stones;
 		if (stones == 0) {
 			stones = DEFAULT_STONES;

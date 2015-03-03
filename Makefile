@@ -1,2 +1,2 @@
-mancala : 
-	g++ mancala.cpp main.cpp -lm -o mancala
+all:
+	$(CXX) mancala.cpp main.cpp -lm -o mancala
