@@ -1,4 +1,4 @@
-mancala
+mancala [![Build Status](https://travis-ci.org/boaz001/mancala.svg?branch=master)](https://travis-ci.org/boaz001/mancala)
 =======
 
 #Game explanation
@@ -21,7 +21,7 @@ CPU: 12|11|10|9 |8 |7 |
  |  |4 |4 |4 |4 |4 |4 |  |
  -------------------------
 HUM: 0 |1 |2 |3 |4 |5 |
-HUMAN sow? : 
+HUMAN sow? :
 ```
 
 #Usage
